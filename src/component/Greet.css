@@ -1,0 +1,25 @@
+.header{
+    background-color: aqua;
+}
+
+.header, .navbar{
+    text-align: center;
+}
+.navbar ul{
+    padding: 0;
+} 
+.navbar ul li{
+    display: inline;
+    font-weight: bold;
+}
+.navbar > ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: black; 
+    padding: 5px;
+}
+.navbar > ul li a:hover{
+    color: red;
+    border: 2px solid black;
+}
+
